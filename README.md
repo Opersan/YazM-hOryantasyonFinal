@@ -49,9 +49,10 @@ seriesUp(2) → [1, 1, 2]
 Soru 6(fix34): Return an array that contains exactly the same numbers as the given array, but rearranged so that every 3 is immediately followed by a 4. Do not move the 3's, but every other number may move. The array contains the same number of 3's and 4's, every 3 has a number after it that is not a 3, and a 3 appears in the array before any 4.
 
 fix34([1, 3, 1, 4]) → [1, 3, 4, 1]
-fix34([1, 3, 1, 4, 4, 3, 1]) → [1, 3, 4, 1, 1, 3, 4]
-fix34([3, 2, 2, 4]) → [3, 4, 2, 2]
 
+fix34([1, 3, 1, 4, 4, 3, 1]) → [1, 3, 4, 1, 1, 3, 4]
+
+fix34([3, 2, 2, 4]) → [3, 4, 2, 2]
 
 
 
@@ -75,13 +76,17 @@ wordCount(["c", "c", "c", "c"]) → {"c": 4}
 Soru 9(splitOdd10): Given an array of ints, is it possible to divide the ints into two groups, so that the sum of one group is a multiple of 10, and the sum of the other group is odd. Every int must be in one group or the other. Write a recursive helper method that takes whatever arguments you like, and make the initial call to your recursive helper from splitOdd10(). (No loops needed.)
 
 splitOdd10([5, 5, 5]) → true
+
 splitOdd10([5, 5, 6]) → false
+
 splitOdd10([5, 5, 6, 1]) → true
 
 
 Soru 10(equlisNot):Given a string, return true if the number of appearances of "is" anywhere in the string is equal to the number of appearances of "not" anywhere in the string (case sensitive).
 
 equalIsNot("This is not") → false
+
 equalIsNot("This is notnot") → true
+
 equalIsNot("noisxxnotyynotxisi") → true
 
